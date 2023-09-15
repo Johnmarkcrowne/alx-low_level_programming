@@ -1,6 +1,14 @@
 #include "main.h"
 
-int main(void) {
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function prints "_putchar" followed by a new line.
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
     _putchar('_');
     _putchar('p');
     _putchar('u');
@@ -12,3 +20,4 @@ int main(void) {
     _putchar('\n');
     return (0);
 }
+
