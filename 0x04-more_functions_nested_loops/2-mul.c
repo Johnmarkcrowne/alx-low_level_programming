@@ -1,14 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * mul - Multiplies two integers
- * @x: The first number to multiply
- * @y: The second number to multiply with first number
- * Return: The result of multiplication between x param and y param
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-
-int mul(int x, int y)
-
+int main(void)
 {
-	return (x*y);
+    printf("%d\n", mul(98, 1024));
+    printf("%d\n", mul(-402, 4096));
+    return (0);
 }
